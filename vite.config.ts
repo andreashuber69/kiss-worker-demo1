@@ -7,5 +7,6 @@ export default defineConfig({
         // If you refrain from using top-level await, the default target
         // will work just fine.
         target: "es2022",
+        sourcemap: true,
     },
 });
