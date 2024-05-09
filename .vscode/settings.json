@@ -1,4 +1,5 @@
 {
   "files.autoSave": "onFocusChange",
-  "editor.rulers": [73]
+  "editor.rulers": [73],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
