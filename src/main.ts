@@ -1,4 +1,4 @@
-import { createFibonacciWorker } from "./createFibonacciWorker.js";
+import { createFibonacciWorker } from "./createFibonacciWorker.ts";
 
 // Start a new worker thread waiting for work.
 const worker = createFibonacciWorker();

@@ -4,7 +4,8 @@
     "@tsconfig/node20/tsconfig"
   ],
   "compilerOptions": {
-    "lib": ["dom", "es2023", "WebWorker"],
+    "allowImportingTsExtensions": true,
+    "lib": ["dom", "es2023"],
     "noEmit": true,
     "verbatimModuleSyntax": true
   },
