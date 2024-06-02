@@ -23,3 +23,9 @@ cd kiss-worker-demo1
 npm install
 npm start
 ```
+
+The above will run the example code in your browser. You can run it on node as follows:
+
+```bash
+npm run node-start
+```

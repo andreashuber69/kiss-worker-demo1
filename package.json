@@ -21,6 +21,7 @@
   "private": true,
   "scripts": {
     "start": "vite --open",
+    "node-start": "tsx ./src/node-main.ts",
     "build": "tsc -p './src' && vite build",
     "preview": "vite preview --open",
     "ci": "npm run build"
@@ -28,7 +29,8 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
     "@tsconfig/strictest": "^2.0.5",
-    "kiss-worker": "^3.0.0",
+    "kiss-worker": "^3.1.0-alpha.0",
+    "tsx": "^4.11.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.11"
   }
