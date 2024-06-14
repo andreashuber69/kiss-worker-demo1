@@ -14,8 +14,9 @@
 Demonstrates the easiest way to use `kiss-worker` with a single function, see
 [Getting Started](https://www.npmjs.com/package/kiss-worker#example-1-single-function).
 
-You can play with this on [StackBlitz](https://stackblitz.com/~/github.com/andreashuber69/kiss-worker-demo1) or on
-your computer (requires [node](https://nodejs.org/en/download) >=18.18):
+You can play with this on [StackBlitz](https://stackblitz.com/~/github.com/andreashuber69/kiss-worker-demo1). To compile
+the example on your computer and run it in your browser you can proceed as follows (requires
+[node](https://nodejs.org/en/download) >=18.18):
 
 ```bash
 git clone https://github.com/andreashuber69/kiss-worker-demo1.git
@@ -24,7 +25,7 @@ npm install
 npm start
 ```
 
-The above will run the example code in your browser. You can run it on node as follows:
+Naturally, the exact same worker code also runs on node:
 
 ```bash
 npm run node-start
