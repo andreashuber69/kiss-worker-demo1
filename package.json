@@ -27,7 +27,6 @@
     "ci": "npm run build"
   },
   "devDependencies": {
-    "@tsconfig/node18": "^18.2.4",
     "@tsconfig/strictest": "^2.0.5",
     "kiss-worker": "^3.1.1",
     "tsx": "^4.19.2",

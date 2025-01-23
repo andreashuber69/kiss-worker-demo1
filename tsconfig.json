@@ -1,13 +1,9 @@
 {
-  "extends": [
-    "@tsconfig/strictest/tsconfig",
-    "@tsconfig/node18/tsconfig"
-  ],
+  "extends": ["@tsconfig/strictest/tsconfig"],
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "lib": ["dom", "es2023"],
-    "noEmit": true,
-    "verbatimModuleSyntax": true
+    "module": "Node16",
+    "noEmit": true
   },
   "include": ["src/**/*"]
 }
