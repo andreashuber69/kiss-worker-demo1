@@ -9,7 +9,5 @@
     "noEmit": true,
     "verbatimModuleSyntax": true
   },
-  "include": [
-    "*.ts"
-  ]
+  "include": ["src/**/*"]
 }

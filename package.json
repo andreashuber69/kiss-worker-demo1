@@ -21,8 +21,8 @@
   "private": true,
   "scripts": {
     "start": "vite --open",
-    "node-start": "tsx ./src/node-main.ts",
-    "build": "tsc -p './src' && vite build",
+    "node-start": "tsx 'src/node-main.ts'",
+    "build": "tsc && vite build",
     "preview": "vite preview --open",
     "ci": "npm run build"
   },
